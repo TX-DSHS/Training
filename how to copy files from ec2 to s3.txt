@@ -1,0 +1,9 @@
+#copy files from EC2 to S3
+#copy a single file:
+aws s3 cp </path/to/file/filename/ s3://<bucket>/<folder>/
+#example:
+aws s3 cp /home/dnalab/cecret_runs/run/run_results.txt s3://804609861260-covid-19/cecret_runs/run_results/
+#copy a folder:
+aws s3 cp --recursive cp /home/dnalab/cecret_runs/runfolder s3://804609861260-covid-19/cecret_runs/run_results/runfolder/
+
+

@@ -1,4 +1,13 @@
-# Training Part 1 -- Linux Command line basics
+# Training Part 1 -- Linux Command-line basics
+
+Why Linux?
+- Majority of bioinformatics/computational biology software/open-source code developed for Linux
+- Most programs are command-line (i.e., launched by entering a command in
+a terminal window rather than through GUI)
+- While various graphical and/or web user interfaces exist, but often struggle to provide flexibility and scalability for public health lab testing
+- Versatile scripting and system tools readily available on Linux allow
+customization and automation of any analysis
+- Learning Linux is a good investment
 
 ### Basic Linux Commands
 
@@ -124,3 +133,5 @@ This command lists all files and directories in the current directory, and then 
 ```
 ls | sort
 ```
+
+For more advanced command-line learning needs, please visit https://www.w3schools.com/bash/bash_cd.php

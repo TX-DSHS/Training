@@ -1,5 +1,5 @@
-# Training
-**Welcome to the Texas DSHS Bioinformatics training portal!**
+# Training Part 1 -- Linux Command line basics
+## Welcome to the Texas DSHS Bioinformatics training portal!
 
 Before starting the training, please create an account on GitHub:
 https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github
@@ -11,7 +11,7 @@ Once you open the GitHub Codespace, you will see the Linux command prompt where 
 
 ![alt text]({ECB36D37-68EC-4802-AE4F-7EC43BD71F49}.png)
 
-**BASIC LINUX COMMANDS**
+### BASIC LINUX COMMANDS
 
 Here is a short list of basic, but essential commands. In Linux, commands are case-sensitive and more often than not they are entirely in lowercase. Items that are surrounded by brackets ([]) are optional. 
 
@@ -40,4 +40,24 @@ Displays arguments to the screen.
 ```
 echo [argument]
 ```
+
+## Working with files and directories
+
+
+
+
+## [Exercise 1]
+
+
+
+## Piping in Linux 
+The Linux systems allow the stdout of a command to be connected to the stdin of another command. You can make it do so by using the pipe character '|'. 
+This direct connection between commands/ programs/ processes allows them to operate simultaneously and permits data to be transferred between them continuously rather than having to pass it through temporary text files or through the display screen. 
+Pipes are unidirectional i.e., data flows from left to right through the pipeline. 
+
+**Syntax**
+```
+command_1 | command_2 | command_3 | .... | command_N 
+```
+
 
